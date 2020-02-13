@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.ts"],"names":["test"],"mappings":";;;;;;;AAAe,SAASA,IAAT,GAAwB;AACnC,SAAO,iCAAP;AACH","sourcesContent":["export default function test(): string {\n    return 'This Is Sub Package(typescript)';\n}"],"file":"index.js"}

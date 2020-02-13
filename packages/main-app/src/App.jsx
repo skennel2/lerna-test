@@ -1,12 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import sub from '@mee/sub';
+import sub_ts from '@mee/sub-ts';
 
 function App() {
   return (
     <div className="App">
-      {sub()}
+      <div>
+        {sub()}
+      </div>
+      <div>
+        {sub_ts()}
+      </div>
     </div>
   );
 }

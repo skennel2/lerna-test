@@ -1,0 +1,22 @@
+{
+  "name": "@mee/sub-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps --watch"
+  },
+  "files": ["dist"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/node": "^13.7.1",
+    "typescript": "^3.7.5"
+  }
+}

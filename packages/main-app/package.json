@@ -9,7 +9,8 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.1",
-    "@mee/sub": "^1.0.0"
+    "@mee/sub": "^1.0.0",
+    "@mee/sub-ts": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

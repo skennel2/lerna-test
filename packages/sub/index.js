@@ -1,3 +1,3 @@
 export default function test() {
-    return 'This Is Sub Module';
+    return 'This Is Sub Package!@!@22';
 }

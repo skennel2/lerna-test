@@ -5,6 +5,9 @@
     "lerna": "^3.20.2"
   },
   "scripts": {
-    "start": "lerna run start"
+    "start": "lerna run --scope @mee/main-app start --parallel",
+    "watch": "lerna run watch --stream",
+    "sss": "npm run watch && npm run start",
+    "bootstrap": "lerna bootstrap"
   }
 }
